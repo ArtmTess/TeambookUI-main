@@ -1,0 +1,27 @@
+1. Not able to Activate project (fixed).
+Steps:
+1. From Projects page archive a project.
+2. From drop-down menu on projects page select 'Archived'.
+3. Check the project and point your mouse to sign "+", notice tooltip 'Activate project', click on the sign '+'.
+Expected result: a pop up message about activation project. Able to activate project.
+Actual result: The pop-up with 'delete' button instead of activate, 'delete' doesn't work either.
+
+
+2. Able to create tag with empty name.
+Steps:
+1. Go to "Users" page.
+2. Click "Manage Tags".
+3 Click "+".
+4 In "tagName" input field hit "space" button 3 times or more.
+5 Save.
+Expected result: A message that not able to create a tag with empty name.
+Actual result: The tag with no name created.
+
+3. Need to refresh the page to see updates.
+Conditions: Only for automation process.
+Steps:
+1. Run automated test case for create, update, delete projects.
+2. Check updates.
+Expected result: not need to refresh the page to see updates.
+Actual: need o refresh the page.
+
